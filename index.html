@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="search" id="input">
+            <button type="submit" id="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <h1 class="city" id="city">Weather in Baku</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" id="icon" />
+                <div class="desc" id="desc">Cloudy</div>
+              </div>
+            <h2 class="temp" id="temp">Temperature: 31 °C</h2>
+            <div class="wind" id="wind">Wind speed: 6.2 km/h</div>
+        </div>
+    </div>
+      <script src="weather.js"></script>
+</body>
+</html>
